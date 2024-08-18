@@ -10,31 +10,91 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "id": "9e79",
+      "cityName": "Amsterdam",
+      "country": "Netherlands (Kingdom of the)",
+      "emoji": "🇳🇱",
+      "date": "2024-08-17T19:30:29.034Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
+        "lat": "52.3726123819463",
+        "lng": "4.891920089721681"
+      }
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "id": "9248",
+      "cityName": "Istanbul",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2024-08-17T19:30:51.160Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
+        "lat": "41.006070860484314",
+        "lng": "28.97472381591797"
+      }
+    },
+    {
+      "id": "db7a",
+      "cityName": "Moscow",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2024-08-17T19:32:25.524Z",
+      "notes": "",
+      "position": {
+        "lat": "55.74798490877827",
+        "lng": "37.61993408203126"
+      }
+    },
+    {
+      "id": "c159",
+      "cityName": "Chattogram",
+      "country": "Bangladesh",
+      "emoji": "🇧🇩",
+      "date": "2024-08-17T19:32:58.775Z",
+      "notes": "",
+      "position": {
+        "lat": "22.333086832012633",
+        "lng": "91.83385848999023"
+      }
+    },
+    {
+      "id": "b41b",
+      "cityName": "Abu Dhabi",
+      "country": "United Arab Emirates (the)",
+      "emoji": "🇦🇪",
+      "date": "2024-08-17T19:33:16.833Z",
+      "notes": "",
+      "position": {
+        "lat": "24.453244003640076",
+        "lng": "54.37717437744141"
+      }
+    },
+    {
+      "id": "7f07",
+      "cityName": "Dubai",
+      "country": "United Arab Emirates (the)",
+      "emoji": "🇦🇪",
+      "date": "2024-08-17T19:33:34.631Z",
+      "notes": "",
+      "position": {
+        "lat": "25.299337565234087",
+        "lng": "55.37658691406251"
+      }
+    },
+    {
+      "id": "e6c5",
+      "cityName": "Kuwait City",
+      "country": "Kuwait",
+      "emoji": "🇰🇼",
+      "date": "2024-08-18T02:46:41.070Z",
+      "notes": "",
+      "position": {
+        "lat": "29.19053283229458",
+        "lng": "47.65869140625001"
+      }
     }
   ]
 }

@@ -2,6 +2,7 @@ import { Form } from "react-router-dom";
 import { createOrder } from "../../services/apiResturent";
 import { redirect } from "react-router-dom";
 import { useNavigation } from "react-router-dom";
+import { useActionData } from "react-router-dom";
 
 const isValidPhone = (str) =>
 	/^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/.test(
@@ -34,8 +35,9 @@ const fakeCart = [
 
 export default function CreateOrder() {
 	const navigation = useNavigation();
-
 	const isSubmitting = navigation.state === "submitting";
+
+	const formErrors = useActionData();
 
 	// const [withPriority, setWithPriority] = useState(false);
 	const cart = fakeCart;
@@ -51,7 +53,10 @@ export default function CreateOrder() {
 
 				<div>
 					<label>Phone number</label>
-					<input type="tel" name="phone" required />
+					<div>
+						<input type="tel" name="phone" required />
+					</div>
+					{formErrors?.phone && <p>{formErrors.phone}</p>}
 				</div>
 
 				<div>
@@ -94,6 +99,13 @@ export async function action({ request }) {
 	};
 
 	console.log(order);
+
+	const errors = {};
+	if (!isValidPhone(order.phone))
+		errors.phone =
+			"Please give us your correct phone number. We might need it to contact you";
+
+	if (Object.keys(errors).length > 0) return errors;
 
 	const newOrder = await createOrder(order);
 

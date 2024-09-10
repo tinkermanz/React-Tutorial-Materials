@@ -1,9 +1,8 @@
-import { Form } from "react-router-dom";
 import { createOrder } from "../../services/apiResturent";
-import { redirect } from "react-router-dom";
-import { useNavigation } from "react-router-dom";
-import { useActionData } from "react-router-dom";
+import { useNavigation, useActionData, Form, redirect } from "react-router-dom";
 import Button from "../../ui/Button";
+import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 const isValidPhone = (str) =>
     /^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/.test(
@@ -37,8 +36,8 @@ const fakeCart = [
 export default function CreateOrder() {
     const navigation = useNavigation();
     const isSubmitting = navigation.state === "submitting";
-
     const formErrors = useActionData();
+    const username = useSelector((state) => state.user.userName);
 
     // const [withPriority, setWithPriority] = useState(false);
     const cart = fakeCart;
@@ -52,6 +51,7 @@ export default function CreateOrder() {
                 <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-center">
                     <label className="sm:basis-40">First Name</label>
                     <input
+                        defaultValue={username}
                         className="input grow"
                         type="text"
                         name="customer"

@@ -1,11 +1,16 @@
 import { formatCurrency } from "../../utils/helpers";
 import Button from "../../ui/Button";
 import { useDispatch } from "react-redux";
-import { addItem } from "../cart/CartSlice";
+import { addItem, getCurrentQuantityById } from "../cart/CartSlice";
+import DeleteItem from "../cart/DeleteItem";
+import { useSelector } from "react-redux";
 function MenuItem({ pizza }) {
+    const dispatch = useDispatch();
+
     const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
-    const dispatch = useDispatch();
+    const currentQuantity = useSelector(getCurrentQuantityById(id));
+    const isInCart = currentQuantity > 0;
 
     function handleAddToCart() {
         const newItem = {
@@ -39,7 +44,8 @@ function MenuItem({ pizza }) {
                         </p>
                     )}
 
-                    {!soldOut && (
+                    {isInCart && <DeleteItem pizzaId={id} />}
+                    {!soldOut && !isInCart && (
                         <Button type="small" onClick={handleAddToCart}>
                             Add to cart
                         </Button>

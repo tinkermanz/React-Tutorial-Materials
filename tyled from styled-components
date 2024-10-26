@@ -1,0 +1,227 @@
+[33mcommit a2a1d2f47fc8a00425dc0685343a36f1b2837817[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Mon Sep 23 19:52:19 2024 +0600
+
+    fast react pizza co. finished
+
+[33mcommit 27c21722f05e6fc5a772732a628e006026e795f9[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Wed Sep 11 11:25:08 2024 +0600
+
+    using cart to implement new orders
+
+[33mcommit 14542eb285bb7a50a3f3f5214b861aa8c36f2ca9[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Wed Sep 11 07:41:26 2024 +0600
+
+    updating cart quantities implemented
+
+[33mcommit b771374a32ceace277d9813f52602515c88e2f87[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Wed Sep 11 06:42:42 2024 +0600
+
+    deleting cart items implemented
+
+[33mcommit e708be196d6174425d06ea373e34cb15f9051a07[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Tue Sep 10 19:41:41 2024 +0600
+
+    cart has been builded
+
+[33mcommit cfb3de6f4ea2d2e0cc1e0d421e2c8235471711ae[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Tue Sep 10 19:22:06 2024 +0600
+
+    Menu items and Cart overview synced with redux
+
+[33mcommit cb1fc79c49c2bada7e764c1c9664f31a752b7645[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Tue Sep 10 15:40:51 2024 +0600
+
+    cartSlice and redux-react added to manage state
+
+[33mcommit b28278d0ee6e2f0d2d36812e44089405250e00e6[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Tue Sep 10 12:57:27 2024 +0600
+
+    redux store created and implementation ongoing
+
+[33mcommit ef99a72b784f5c4e236ffdcaef88ded93edd5c96[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Fri Sep 6 12:05:12 2024 +0600
+
+    styling order overview done
+
+[33mcommit c4ffddcba66a059ea8e372cc8c6adf350f75572d[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Fri Sep 6 10:30:07 2024 +0600
+
+    order form styled
+
+[33mcommit 1ded4ba571d8a6c3fdfadccdcd3e04e071727e38[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Fri Sep 6 09:48:49 2024 +0600
+
+    styleling cart done
+
+[33mcommit 8ee6f6f8fff80cefe0af999ee77de7b170fef24d[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Fri Sep 6 09:22:54 2024 +0600
+
+    tailwind styles added except cart, order, orderOverview
+
+[33mcommit dc949397b5e548d02f75beee95ee83b439c450fc[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Tue Sep 3 08:30:29 2024 +0600
+
+    Error handling in form actions implemented
+
+[33mcommit 286a4c99ede5b37f65df167b9c0108b08a25acbc[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Tue Sep 3 08:16:31 2024 +0600
+
+    react action implemented for forms
+
+[33mcommit e71bb18638884d7ce8df9aa777c6e7e66c951e60[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Mon Sep 2 04:48:44 2024 +0600
+
+    fetching order done
+
+[33mcommit fa5114108c45bd656b020d53e09e9a29a019efd8[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Mon Sep 2 03:48:22 2024 +0600
+
+    error element added
+
+[33mcommit 58e7efd2ee9de3e49a36a64d75f3490f38eadb8b[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Mon Sep 2 02:52:38 2024 +0600
+
+    loader implemented
+
+[33mcommit d5f1bfb05f46cda182d7f3f085a61e2788186de4[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Mon Sep 2 02:32:47 2024 +0600
+
+    react router loader implemented
+
+[33mcommit 7017723ba1869ce4123da7ea3f0ec649ea5484db[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sat Aug 31 20:13:12 2024 +0600
+
+    fast-react-pizza folder structure done
+
+[33mcommit 93695d68da99fec4fce590066871697c20ace462[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sat Aug 31 03:48:01 2024 +0600
+
+    redux toolkit version done
+
+[33mcommit 617a10b2a56ff30d3a4d3bd9219cd3afd3c27874[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Fri Aug 30 05:13:59 2024 +0600
+
+    redux code oldway
+
+[33mcommit bbb6ee91ba891cc5dd83ccb55cc93f1f9e76f1f5[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sun Aug 25 18:54:49 2024 +0600
+
+    debug project done
+
+[33mcommit c9e845ffdf76b04efa57cbcb2ca7b01bb26711ed[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sun Aug 18 23:56:19 2024 +0600
+
+    worldwise project done
+
+[33mcommit ee56b2da5d14a2a77b52ec07e6209496ed19c997[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Mon Aug 12 11:12:41 2024 +0600
+
+    context provider and consume first usage
+
+[33mcommit d3ff140a3def57ed8890247238839dd0436353e6[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sat Aug 10 09:56:12 2024 +0600
+
+    worldwise app halfly done
+
+[33mcommit 321e8de96fb523dcdc66444cb7a2098d66966975[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Tue Jul 16 13:37:26 2024 +0600
+
+    timer added
+
+[33mcommit 1729eb76ef795b1e93d3baa9917160b7aba14462[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Tue Jul 16 12:28:03 2024 +0600
+
+    ReactQuiz is almost done
+
+[33mcommit 37ba988fe6091f3f0aa181d3c22339e6654d1189[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sun Jul 14 01:06:05 2024 +0600
+
+    DataCounter useReducer introduction done
+
+[33mcommit bc23a41049c381ae32214a25bf8b03c747fb7d9a[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Fri Jul 12 06:39:56 2024 +0600
+
+    usePopcorn project done
+
+[33mcommit fb9002e140d38337fc8288a54084becfd763f083[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Tue Jul 9 08:51:46 2024 +0600
+
+    usePopcorn useeffect practise done
+
+[33mcommit c8e2911bbab88b2c632a7d470939a130b5050d81[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sun Jun 23 05:24:06 2024 +0600
+
+    Star component done and many more
+
+[33mcommit 8a7ccd64ac059821a62044ae6088f7265303f05d[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sat Jun 22 18:16:07 2024 +0600
+
+    componet composition complete
+
+[33mcommit 11377310bfc6402d5cd863c275e70ae950ea1fa4[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sat Jun 22 17:43:19 2024 +0600
+
+    usePopcorn site is now using compoents
+
+[33mcommit bbb966c8f72645afece37e4cd57b39e2612bf839[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Thu Jun 20 03:52:54 2024 +0600
+
+    eat-n-split project done
+
+[33mcommit 9d8abc56765c15102850d34669ff0b92db04f370[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Mon Jun 17 02:04:44 2024 +0600
+
+    travel-list compeletely done
+
+[33mcommit 56252748bfc09182eb7e6f264dbe831452c075e0[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sun Jun 16 13:19:31 2024 +0600
+
+    travel-list project is done
+
+[33mcommit 797a5ee54612f1ebffde9e9ce3c2fe2f0b66b3f2[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sat Jun 15 16:50:48 2024 +0600
+
+    steps project done
+
+[33mcommit 4d77839946f8c2c2076beec1d3df0d967db0ca55[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Fri Jun 14 17:03:41 2024 +0600
+
+    first project completed

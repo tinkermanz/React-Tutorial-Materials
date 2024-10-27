@@ -1,4 +1,16 @@
-[33mcommit a2a1d2f47fc8a00425dc0685343a36f1b2837817[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+[33mcommit f6207b26a91fc8bcd75e49d61379b1da85c4a249[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sat Oct 26 09:16:03 2024 +0600
+
+    Styled component 'as' and 'css' function used
+
+[33mcommit 783c3022a667ac34d2c01fdba0fbe3682fcedf8a[m
+Author: tinkermanz <m.b.istiak@outlook.com>
+Date:   Sat Oct 26 08:50:49 2024 +0600
+
+    The wild oasis project initiated, Styled component added and Global style added for CSS
+
+[33mcommit a2a1d2f47fc8a00425dc0685343a36f1b2837817[m
 Author: tinkermanz <m.b.istiak@outlook.com>
 Date:   Mon Sep 23 19:52:19 2024 +0600
 
